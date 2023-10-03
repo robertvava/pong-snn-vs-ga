@@ -23,7 +23,7 @@ class SimpleNN(nn.Module):
         return x
 
 
-# =============================================== NOT USED IN THE PROJECT =============================================== #
+# =============================================== NOT YET IMPLEMENTED =============================================== #
 
 class TCNBlock(nn.Module):
     def __init__(self, input_size, output_size, kernel_size=3, dilation=1):
